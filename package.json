@@ -1,0 +1,30 @@
+{
+  "name": "Test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "jest": {
+    "transform": {
+      "^.+\\.[t|j]sx?$": "babel-jest"
+    },
+    "transformIgnorePatterns": []
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mofuhidy/testing-practice.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Mofuhidy/testing-practice/issues"
+  },
+  "homepage": "https://github.com/Mofuhidy/testing-practice#readme",
+  "devDependencies": {
+    "@babel/preset-env": "^7.22.5",
+    "babel-jest": "^29.5.0",
+    "jest": "^29.5.0"
+  }
+}
